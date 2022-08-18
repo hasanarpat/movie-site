@@ -1,0 +1,46 @@
+@media only screen and (max-width :400px) {
+    .movie-card{
+        margin: 2rem;
+    }
+    .carousel{
+        flex-direction: column;
+        gap:5px;
+    }
+    .carousel > * {
+        font-size: .8rem;
+    } 
+    .carousel Card {
+        position: relative;
+    }
+    .carousel img{
+        position: absolute;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        object-fit: cover;
+        height: 5rem;
+        opacity:0.6;
+
+    }
+    .footer-list{
+        display: "flex";
+        flex-direction: "row";
+    }
+    
+}
+.footer-list{
+        display: "flex";
+        flex-direction: "column";
+        width: "50%";
+}
+.footer-list li:hover{
+    border:"1px solid dark";
+    background-color: white;   
+    color: #000;     
+}
+.footer-list li{
+    border:"1px solid white";
+    background-color: #777;   
+    color: #fff;     
+}
